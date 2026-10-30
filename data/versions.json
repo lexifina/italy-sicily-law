@@ -1,0 +1,19 @@
+{
+ "country": "IT-82",
+ "acts": [
+  {
+   "slug": "statuto",
+   "short": "Statuto",
+   "title": "Statuto speciale della Regione Siciliana",
+   "url": "https://www.ars.sicilia.it/statuto-della-regione",
+   "versions": [
+    {
+     "from": "2026-10-30",
+     "units": 45,
+     "source_url": "https://www.ars.sicilia.it/sites/default/files/downloads/2019-06/Statuto2019.pdf",
+     "sha256": "8d735e72632a39d2cc0c3e09782ab28d710e76973c12b330206a3310a3ffc487"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+  "path": "it-82",
+  "code": "IT-82",
+  "name": "Sicily",
+  "level": "region",
+  "parent": "it",
+  "repo": "https://github.com/lexifina/italy-sicily-law",
+  "build": "built: statute and regional laws (1 acts, 1 versions) from the Assemblea Regionale Siciliana (ARS) (current text only)",
+  "language": "it",
+  "sources": 1
+}
