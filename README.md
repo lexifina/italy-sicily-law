@@ -1,5 +1,7 @@
 # Sicily: law history in git
 
+Part of [lexifina/global-law](https://github.com/lexifina/global-law), one git history for every country's law: this is the law of Sicily, Italy, which global-law reads at `italy/sicily/acts/`.
+
 The law of the autonomous region of Sicily (Regione Siciliana, Italy) as a git history: one file per article, one commit per change, dated the day it took effect. `git blame` names the law behind every paragraph; `git log` lists every change to an article; checking out a date gives the text in force that day (here: the text in force when it was retrieved).
 
 It follows the shared design of [lexifina/global-law](https://github.com/lexifina/global-law), which places it at `it-82/`. Italy's national law is in [lexifina/italy-law](https://github.com/lexifina/italy-law).
