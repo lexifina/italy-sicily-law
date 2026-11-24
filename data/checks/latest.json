@@ -1,0 +1,76 @@
+{
+ "generated": "2026-11-24T00:30:56Z",
+ "latest": {
+  "ars|italy/sicily/acts": {
+   "attempt": 1,
+   "audit": {
+    "match_neither": 0,
+    "match_new": 1,
+    "match_old": 0,
+    "method": "read again in the ARS's own volume Regolamento interno (October 2022; the Statute is printed in it with the norme di attuazione), the PDF behind the regolamento-dellassemblea page: the share of the words of main's article files (letters only, accents folded) found in the volume's Statute, at least 0.98 in all and 0.95 in every file (the volume's footnotes differ from the 2019 PDF's)",
+    "rows": [
+     {
+      "id": "statuto",
+      "low": [],
+      "published": false,
+      "read": "https://www.ars.sicilia.it/sites/default/files/downloads/2022-10/Regolamento%20interno%20ARS%202022.pdf",
+      "share": 0.9988,
+      "verdict": "match_new",
+      "words": 3289
+     }
+    ],
+    "sampled": 1,
+    "unread": 0
+   },
+   "census": {
+    "checked": 1,
+    "current": 1,
+    "gone": 0,
+    "held": 1,
+    "newest_at_source": "Wed, 19 Jun 2019 12:53:01 GMT",
+    "newest_in_repo": "2026-10-30",
+    "pending": 0,
+    "repo": "italy-sicily-law",
+    "source_in_scope": 1
+   },
+   "check_id": "it-ars-20261124T003045Z",
+   "commits": null,
+   "corpus": "italy/sicily/acts",
+   "error": null,
+   "finished": "2026-11-24T00:30:56Z",
+   "flags": [],
+   "gap": 0,
+   "note": "first check: the baseline (nothing to compare with); the Statute only (the repository's scope): the ARS database of regional laws shows its texts under /icaro/, which its robots.txt disallows; the page's other PDF (the norme di attuazione) is not a text this repository holds",
+   "outcome": "no-change",
+   "published": {
+    "added": [],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 4,
+   "runner": "lawwatch italy (92c4e33d60)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "Wed, 19 Jun 2019 12:53:01 GMT",
+   "source": "ars",
+   "started": "2026-11-24T00:30:45Z",
+   "unexplained": 0,
+   "update": {},
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "explained": 0,
+    "held": 1,
+    "method": "the Statute's PDF read every check: its bytes against the PDF the version held was read from (sha256), and a new PDF read by the builder's own parse (it_sicily.py, PyMuPDF 2.0) and compared with main's files",
+    "ok": true,
+    "versions_checked": 1,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}

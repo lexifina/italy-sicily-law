@@ -1,0 +1,33 @@
+{
+ "sources": [
+  {
+   "id": "ars",
+   "kind": "legislation",
+   "name": {
+    "en": "Assemblea Regionale Siciliana",
+    "it": "Assemblea Regionale Siciliana"
+   },
+   "url": "https://www.ars.sicilia.it/statuto-della-regione",
+   "reads": {
+    "en": "the page of the Statute and the PDF it links to, every check (the PDF's bytes against the version held; a new PDF is read by the builder)",
+    "it": "la pagina dello Statuto e il PDF a cui rimanda, a ogni controllo (i byte del PDF confrontati con la versione presente qui; un PDF nuovo è letto dal costruttore)"
+   },
+   "folders": [
+    "statuto/"
+   ],
+   "schedule": "daily",
+   "state": "watched",
+   "corpora": [
+    "italy/sicily/acts"
+   ],
+   "interval": 3.2,
+   "allow": [
+    "statuto/"
+   ],
+   "note": {
+    "en": "the repository holds the Statute only: the ARS database of regional laws shows its texts under /icaro/, which its robots.txt disallows, so the regional laws are not read",
+    "it": "il repository contiene solo lo Statuto: la banca dati delle leggi regionali dell'ARS mostra i testi sotto /icaro/, che il suo robots.txt esclude, quindi le leggi regionali non sono lette"
+   }
+  }
+ ]
+}
